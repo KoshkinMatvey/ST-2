@@ -21,9 +21,9 @@ class Circle {
   double ference;
   double area;
 
- void updateByRadius();
- void updateByFerence();
- void updateByArea();
+  void updateByRadius();
+  void updateByFerence();
+  void updateByArea();
 };
 
 #endif  // INCLUDE_CIRCLE_H_
