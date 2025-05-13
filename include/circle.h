@@ -5,25 +5,25 @@
 #include <cstdint>
 
 class Circle {
-public:
-	explicit Circle(double r);
+ public:
+ explicit Circle(double r);
 
-	void setRadius(double r);
-	void setFerence(double f);
-	void setArea(double a);
+ void setRadius(double r);
+ void setFerence(double f);
+ void setArea(double a);
 
-	double getRadius() const;
-	double getFerence() const;
-	double getArea() const;
+ double getRadius() const;
+ double getFerence() const;
+ double getArea() const;
 
-private:
-	double radius;
-	double ference;
-	double area;
+ private:
+ double radius;
+ double ference;
+ double area;
 
-	void updateByRadius();
-	void updateByFerence();
-	void updateByArea();
+ void updateByRadius();
+ void updateByFerence();
+ void updateByArea();
 };
 
 #endif  // INCLUDE_CIRCLE_H_
